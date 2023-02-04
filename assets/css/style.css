@@ -20,14 +20,16 @@ body{
     padding: 30px;
     font-size: 40px;
     text-align: center;
-    background: #777777;
-    color: #fff;
+    background: url(https://cdn.pixabay.com/photo/2016/05/09/22/02/dachshund-1382631_960_720.jpg) no-repeat; 
+    background-size: 100%;
+
 
 }
 
 .header h2
 {
-    color: #fff;
+    color: #010101;
+    font-weight: 900;
 }
 
 /*-----------------create two un-equal columns that
