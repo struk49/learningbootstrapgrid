@@ -1,117 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
 
-
-*{
-
-    box-sizing: border-box;
-}
-
-
-body{
-    font-family:  "Oxygen", sans-serif;
-    padding: 20px;
-    background: #777777;
-}
-
-/*---------------------header/blog title*/
-
-.header
-{
-    padding: 30px;
-    font-size: 40px;
+ .container
+ {
+    padding-top: 70px;
+    padding-bottom: 70px;
+ }
+ .bg-1
+ {
     text-align: center;
-    background: url(https://cdn.pixabay.com/photo/2016/05/09/22/02/dachshund-1382631_960_720.jpg) no-repeat; 
-    background-size: 100%;
-
-
-}
-
-.header h2
-{
-    color: #010101;
-    font-weight: 900;
-}
-
-/*-----------------create two un-equal columns that
-
-floats next to each other*/
-
-
-.right-coloumn
-{
-    float: left;
-    width: 25%;
-    padding-left: 20px;
-}
-
-/*-----------fake-image*/
-
-.image
-{
-   background: #777777;
-    width: 15%;
-    padding: 20px;
-    clear: both;
-    
-}
-
-.image2
-{
-    background: #ca2222;
-    width: 15%;
-    padding: 20px;
-
-}
+    background-color: #1abc9c;
+    color: #fff;
+ }
+ 
+ .bg-1 img{
+    display: inline;
+    float: inline-start;
+ }
 
 
 
-/*------------------------add card effect for articals*/
-
-.card1
-{
-    background: url(https://cdn.pixabay.com/photo/2016/05/09/22/02/dachshund-1382631_960_720.jpg) no-repeat; 
-    background-size: 100%;
-    padding: 20px;
-    margin-top: 20px;
-    font-size: larger;
-    color: #10100f ;
-}
-
-.card2
-{
-    background: url(https://cdn.pixabay.com/photo/2016/05/09/22/02/dachshund-1382631_960_720.jpg) no-repeat; 
-    background-size: 100%;
-    padding: 20px;
-    margin-top: 20px;
-    font-size: larger;
-    color: #10100f ;
-}
-
-/*-------------------clear flaots after columns*/
-
-.row::after
-{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/*---------------------footer*/
-
-.footer
-{
-    padding: 20px;
+ .bg-2
+ {
     text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-}
+    background-color: #474e5d;
+    color: #fff;
+ }
 
-/*----------------responsive lsyout - when screen is less than 500px wide, make the two columns
-stack on top of each other instead of next to each other */
+ .bg-3
+ {
+    text-align: center;
+    background-color: #fff;
+    color: #555;
+ }
 
-@media scrren and (max-width:800px) {
-    .left-column, .right-column {
-        width: 100%;
-        padding: 0;
-    }
-}
+ .img-responsive
+ {
+    display: inline;
+    border-radius: 50%;
+    float: inline-start;
+ }
+
