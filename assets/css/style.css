@@ -1,31 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
 
- .container
- {
-    padding-top: 70px;
-    padding-bottom: 70px;
- }
- .bg-1
- {
-    text-align: center;
-    background-color: #1abc9c;
-    color: #fff;
- }
- 
- .bg-1 img{
-    display: inline;
-    float: inline-start;
- }
-
-
-
- .bg-2
- {
-    text-align: center;
-    background-color: #474e5d;
-    color: #fff;
- }
-
  .bg-3
  {
     text-align: center;
@@ -33,10 +7,22 @@
     color: #555;
  }
 
+ .container
+ {
+   padding-top: 70px;
+   padding-bottom: 70px; 
+ }
+ 
+
  .img-responsive
  {
     display: inline;
     border-radius: 50%;
     float: inline-start;
  }
+ 
+
+ 
+ 
+ 
 
