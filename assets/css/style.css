@@ -92,7 +92,7 @@ h2
 
    padding-top: 40px;
    padding-left: 10px;
-   background-color: rgba(241, 109, 107, 0.7);
+   background-color: rgba(64, 155, 154, 0.7);
 
    bottom: 30px;
    right: 150px;
@@ -189,4 +189,29 @@ hr {
    background: url('https://images.unsplash.com/photo-1545671953-0e564e4838a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3RhdHVlJTIwb2YlMjBsaWJlcnR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60') no-repeat center center;
    height: 100%;
    border-radius: 50%;
+}
+
+#times
+{
+   background-image: url(https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&w=600);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   overflow: hidden;
+}
+
+#times div {
+   color: #fafafa;
+   background-color: rgba(0,0,0, .6);
+   width: 19%;
+   height: 300px;
+   float: left;
+   padding: 30px 0 0 10px;
+   text-align: center;
+   margin: 1px;
+}
+
+#times h2 {
+   color: #fafafa;
 }
