@@ -73,7 +73,9 @@ h2
    {
       height: 500px;
       width: 100%;
-      background: url(https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXNjYXBlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60) no-repeat center center;
+      background: url("https://images.pexels.com/photos/8434725/pexels-photo-8434725.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center;
+      /*
+      background: url(https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXNjYXBlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60) no-repeat center center;*/
       
    
       animation-name: hero-zoom;
@@ -138,18 +140,21 @@ h2
 
 #left-benefits{
    padding-top: 30px;
-   width: 40%;
+   width: 33%;
    float: left;
+   font-size: 22x;
+
+   
 }
 
 #right-benefits {
    padding-top: 30px;
-   width: 40%;
+   width: 33%;
    float: right;
 }
 
 #center-benefits {
-   width: 40%;
+   width: 33%;
    margin: 0 auto;
 }
 .bg-benefits{
@@ -157,7 +162,7 @@ h2
 }
 
 hr {
-   border-top: 1px solid #fff;
+   border-top: 1px solid #777777;
    width: 100%;
    margin: 5px 0;
 }
@@ -186,16 +191,21 @@ hr {
 .right-benefits-heading h2 {
    text-align: right;
 }
-/*
+
+
 .right-benefits-heading p{
    color: #fff;
-   font-size: 20px;
+   font-size: 25px;
 }
-*/
+
+.left-benefits-heading p{
+   color: #fff;
+   font-size: 25px;
+}
 #welcome {
    margin: 20px 0;
    text-align: center;
-   font-size: 270%;
+   font-size: 280%;
 }
 
 #circle-container {
@@ -203,8 +213,8 @@ hr {
    height: 300px;
    padding: 30px;
    border-style: solid;
-   border-color: #f60606;
-   border-width: 5px;
+   border-color: #cccccc;
+   border-width: 1px;
    border-radius: 50%;
    margin: 0 auto;
 }
@@ -347,11 +357,6 @@ footer{
         text-align: center;
     }
 
-    .left-benefits-heading p, .right-benefits-heading p{
-        text-align: center;
-        padding: 0 20px 0 20px;
-    }
-
     #photo{
         column-count: 3;
     }
@@ -364,17 +369,17 @@ footer{
 }
 .form-section {
    clear: left;
-   background: url("https://cdn.pixabay.com/photo/2019/10/27/18/48/new-york-4582500__340.jpg") no-repeat center;
+   background: url("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center;
    background-size: cover;
    background-position: center;
-   height: 900px;
+   height: 600px;
 }
 .signup-form
 {
    margin-top:150px;
    color:#fff;
-   background-color:rgba(2, 30, 60, 0.6);
-   max-width:400px;
+   background-color:rgba(248, 202, 63, 0.3);
+   max-width:300px;
    position:absolute;
    left:10%;
    padding:30px;
@@ -387,30 +392,30 @@ footer{
 .text-input
 {
    background:transparent;
-   color:#130431;
+   color:#f4ebed;
    width:100%;
    height:25px;
    margin:5px 0 20px 0;
-   border:1px solid #fafafa;
+   border:1px solid #f0e10c;
    border-radius:2px;
 }
 .text-input:hover
 {
-   border-color:#3506f3;
+   border-color:#fbef0a;
 }
 .join-button
 {
    margin-top:20px;
-   border-radius:2px;
+   border-radius:4px;
    padding:15px 32px 15px 32px;
    text-align:center;
-   font-size:100%;
-   background-color:#0b033b;
+   font-size:30px;
+   background-color:#fa9908;
    color:#fafafa;
    display:block;
 }
 .join-button:hover
 {
-   background-color:#2138b8;
-   color:#0ff1e6;
+   background-color:#f4f113;
+   color:#eff5f4;
 }
