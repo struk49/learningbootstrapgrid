@@ -69,47 +69,90 @@ body{
     }
 }
 
-.feature-one{
-width: 33%;
-display: inline-block;
-background-color: green;
+.feature-header 
+{
+   margin-top: 40px;
+   text-align: center;
+   font-size: 40px;
+   background-color: brown;
 }
 
-.feature-one h1{
-   width:33%;
- display: inline-block;
+
+.feature-one{
+   margin: 10px;
+width: 33%;
+display: inline-flex;
+font-family: sans-serif;
+font-size: 15px;
+background-color: blue;
+color: #fff;
+}
+
+.feature-one p{
+   margin: 20px;
+   font-size: 20px;
+   
 }
 
 .feature-two
 {
+   margin: 10px;
       width: 33%;
-      display: inline-block;
-      background-color: blue;
-}
-.feature-two h1{
-   width:33%;
-   display: inline-block;
+      display: inline-flex;
+      font-family: sans-serif;
+      font-size: 15px;
 
+      background-color: firebrick;
+      color: #fff;
+}
+
+.feature-two p{
+   margin: 20px;
+   font-size: 20px;
 }
 
 .feature-three
 {
+   margin: 10px;
    width: 33%;
-   display: inline-block;
-   background-color: red;;
+   display: inline-flex;
+   font-family: sans-serif;
+   font-size: 15px;
+   background-color: blue;
+   color: #fff;
 }
 
-.feature-three h1{
-   width: 33%;
-   display: inline-block;
 
+.feature-three p{
+   margin: 20px;
+   font-size: 20px;
 }
+
+.feature-four
+{
+   margin: 10px;
+   width: 33%;
+   display: inline-flex;
+   font-family: sans-serif;
+   font-size: 15px;
+   background-color: firebrick;
+   color: #fff;
+}
+
+.feature-four p{
+   margin: 20px;
+   font-size: 20px;
+}
+
+
+
 
 @media screen and (max-width: 1000px) {
   
    .feature-one,
    .feature-two,
-   .feature-three{
+   .feature-three,
+   .feature-four{
        width: 100%;
    }
 }
