@@ -44,6 +44,8 @@ body{
 {
     height:600px;
     width: 100%;
+    margin: 0 10px 0 10px;
+    display: flex;
     background: url("/images/No\ more\ bad\ dog\ breath.png") no-repeat center center;
     background-size: cover;
 
@@ -71,19 +73,22 @@ body{
 
 .feature-header 
 {
-   margin-top: 40px;
+   margin-top: 40px 0 0 30px;
+   width: 100%;
    text-align: center;
+   display: flex;
    font-size: 40px;
    background-color: brown;
 }
 
 
 .feature-one{
-   margin: 10px;
-width: 33%;
+   margin: 10px 25px 10px 0px;
+   padding: 20px;
+width: 15%;
 display: inline-flex;
 font-family: sans-serif;
-font-size: 15px;
+font-size: 20px;
 background-color: blue;
 color: #fff;
 }
@@ -96,11 +101,12 @@ color: #fff;
 
 .feature-two
 {
-   margin: 10px;
-      width: 33%;
+   margin: 10px 25px 10px 0px;
+   padding: 20px;
+      width: 20%;
       display: inline-flex;
       font-family: sans-serif;
-      font-size: 15px;
+      font-size: 20px;
 
       background-color: firebrick;
       color: #fff;
@@ -113,11 +119,12 @@ color: #fff;
 
 .feature-three
 {
-   margin: 10px;
-   width: 33%;
+   margin: 10px 25px 10px 0px;
+   padding: 20px;
+   width: 20%;
    display: inline-flex;
    font-family: sans-serif;
-   font-size: 15px;
+   font-size: 20px;
    background-color: blue;
    color: #fff;
 }
@@ -130,11 +137,12 @@ color: #fff;
 
 .feature-four
 {
-   margin: 10px;
-   width: 33%;
+   margin: 10px 25px 10px 0px;
+   padding: 20px;
+   width: 20%;
    display: inline-flex;
    font-family: sans-serif;
-   font-size: 15px;
+   font-size: 20px;
    background-color: firebrick;
    color: #fff;
 }
@@ -144,6 +152,38 @@ color: #fff;
    font-size: 20px;
 }
 
+.feature-five
+{
+   margin: 10px 25px 10px 0px;
+   padding: 20px;
+   width: 20%;
+   display: inline-flex;
+   font-family: sans-serif;
+   font-size: 20px;
+   background-color: blue;
+   color: #fff;
+}
+
+.feature-five p{
+   margin: 20px;
+   font-size: 20px;
+}
+.feature-six
+{
+   margin: 10px 25px 10px 0px;
+   padding: 20px;
+   width: 20%;
+   display: inline-flex;
+   font-family: sans-serif;
+   font-size: 20px;
+   background-color: firebrick;
+   color: #fff;
+}
+
+.feature-six p{
+   margin: 20px;
+   font-size: 20px;
+}
 
 
 
@@ -152,7 +192,10 @@ color: #fff;
    .feature-one,
    .feature-two,
    .feature-three,
-   .feature-four{
+   .feature-four,
+   .feature-five,
+   .feature-six
+   {
        width: 100%;
    }
 }
@@ -160,7 +203,11 @@ color: #fff;
 @media scree and (max-width: 2000px){
    .feature-one,
    .feature-two,
-   .feature-three{
+   .feature-three
+   .feature-four,
+   .feature-five,
+   .feature-six{
+   
       width: 100%;
    }        
 }
