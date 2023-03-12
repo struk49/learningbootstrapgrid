@@ -78,19 +78,11 @@ a h1
     }
 }
 
-.feature-header 
-{
-   margin-top: 40px 0 0 30px;
-   width: 100%;
-   text-align: center;
-   display: flex;
-   font-size: 40px;
-   background-color: brown;
-}
+
 
 header
 {
-   height: 150px;
+   height: 80px;
 }
 
 .container
@@ -137,7 +129,7 @@ footer
     background-color: black;
     color: #fff;
     clear: both;
-    padding: 50px 0px;
+    padding: 20px 0px;
     text-align: center;
 
 }
