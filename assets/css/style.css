@@ -6,6 +6,8 @@
 
 body{
    font-family: sans-serif;
+   background-color: rgb(111, 52, 38);
+
 }
 
 .move{
@@ -17,11 +19,17 @@ body{
    font-size: 280%;
    margin-left: 20px;
 }
+a h1
+{
+   text-decoration: none;
+   color: rgb(255, 252, 252);
+}
 
 #menu{
-   font-size: 110%;
+   font-size: 130%;
    list-style-type: none;
    letter-spacing: 4px;
+   color: #fff;
    
    
 }
@@ -37,7 +45,8 @@ body{
 
 #menu a {
    text-decoration: none;
-   color: inherit;
+   color: #fff;
+   
 }
 #hero-image
 {
@@ -79,136 +88,65 @@ body{
    background-color: brown;
 }
 
-
-.feature-one{
-   margin: 0px;
-   padding: 20px;
-width: 15%;
-display: inline-flex;
-font-family: sans-serif;
-font-size: 20px;
-background-color: blue;
-color: #fff;
+header
+{
+   height: 150px;
 }
 
-.feature-one p{
-   margin: 20px;
-   font-size: 20px;
+.container
+{
+   width: 100%;
+   margin: 0 auto;  
+   background-color: rgb(239, 189, 128);
+   
    
 }
 
-.feature-two
+section
 {
-   margin: 0px;
-   padding: 20px;
-      width: 20%;
-      display: inline-flex;
-      font-family: sans-serif;
-      font-size: 20px;
 
-      background-color: firebrick;
-      color: #fff;
+    width: 70%;
+    margin-bottom: 100px;
+    margin: 0 auto;  
+    
 }
 
-.feature-two p{
-   margin: 20px;
-   font-size: 20px;
+section h1{
+    color: #fff;
+    font-size: 30px;
 }
 
-.feature-three
+section p{
+    
+    font-size: 21px;
+}
+
+.about{
+   width: 100%;
+   margin: 0 auto;  
+   background-color: rgb(239, 189, 128);
+}
+.about p{
+}
+.ingredients img{
+   height: 400px;
+   width: 100%;
+}
+footer
 {
-   margin: 0px;
-   padding: 20px;
-   width: 20%;
-   display: inline-flex;
-   font-family: sans-serif;
-   font-size: 20px;
-   background-color: blue;
-   color: #fff;
+    background-color: black;
+    color: #fff;
+    clear: both;
+    padding: 50px 0px;
+    text-align: center;
+
+}
+.offer{
+   color: black;
 }
 
-
-.feature-three p{
-   margin: 20px;
-   font-size: 20px;
-}
-
-.feature-four
-{
-   margin: 0;
-   padding: 20px;
-   width: 20%;
-   display: inline-flex;
-   font-family: sans-serif;
-   font-size: 20px;
-   background-color: firebrick;
-   color: #fff;
-}
-
-.feature-four p{
-   margin: 20px;
-   font-size: 20px;
-}
-
-.feature-five
-{
-   margin: 0;
-   padding: 20px;
-   width: 20%;
-   display: inline-flex;
-   font-family: sans-serif;
-   font-size: 20px;
-   background-color: blue;
-   color: #fff;
-}
-
-.feature-five p{
-   margin: 20px;
-   font-size: 20px;
-}
-.feature-six
-{
-   margin: 0px;
-   padding: 20px;
-   width: 20%;
-   display: inline-flex;
-   font-family: sans-serif;
-   font-size: 20px;
-   background-color: firebrick;
-   color: #fff;
-}
-
-.feature-six p{
-   margin: 20px;
-   font-size: 20px;
-}
-
-
-
-@media screen and (max-width: 1000px) {
-  
-   .feature-one,
-   .feature-two,
-   .feature-three,
-   .feature-four,
-   .feature-five,
-   .feature-six,
-   .feature-header
-   {
-       width: 100%;
-   }
-}
-
-
-@media scree and (max-width: 2000px){
-   .feature-one,
-   .feature-two,
-   .feature-three
-   .feature-four,
-   .feature-five,
-   .feature-six{
-   
-      width: 100%;
-   }        
-}
-
+@media screen and (max-width: 600px){
+      .ingredients img{
+         height: 200px;
+      }
+      };
