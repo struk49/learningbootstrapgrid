@@ -131,6 +131,7 @@ footer
     clear: both;
     padding: 20px 0px;
     text-align: center;
+    width: 100%;
 
 }
 .offer{
@@ -138,18 +139,19 @@ footer
 }
 .form-section {
    margin-top: 150px;
-   margin-left: 10px;
+   margin-left: 0 auto;
+   padding: 70px;
    background-image: url(/images/No\ more\ bad\ dog\ breath.png);
    background-size: cover;
    background-position: center;
    height: 600px;
-   width: 100%;
+   width: 60%;
 }
 .signup-form
 {
-   margin-top:100px;
+   margin-top:30px;
    color:#fff;
-   background-color:rgba(60, 60, 60, 0.8);
+   background-color:rgba(60, 60, 60, 0.5);
    max-width:400px;
    position:absolute;
 
@@ -198,5 +200,8 @@ footer
       }
       };
       .signup-form{
-         margin-right: 70px;
+         width: 50%;
+      }
+      footer{
+         width: 100%;
       }
