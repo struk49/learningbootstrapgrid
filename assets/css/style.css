@@ -116,7 +116,7 @@ header
 .flex-parent-element
 {
 
-    width: 70%;
+    width: 100%;
     margin-top: 100px;
     margin-bottom: 100px;
     margin: 0 auto;  
@@ -148,7 +148,10 @@ text-align: center;
 background-color: bisque;
 }
 
-
+.container-post{
+   margin: 0 auto;
+   width: 100%;
+}
 
 @media screen and (max-width: 600px) {
    .flex-parent-element{
@@ -157,7 +160,7 @@ background-color: bisque;
       margin: 20px;
    }
    .about{
-      width: 50%;
+      width: 100%;
       margin: 0 auto;
    
    }
@@ -166,18 +169,18 @@ background-color: bisque;
    }
    .container{
       margin: 0 auto;
-      width: 80%;
+      width: 100%;
    }
    .offer{
       margin: 0 auto;
       padding: 10px;
-      width: 80%%;
+      width: 100%;
       background-color: bisque;
    }
     #menu{
       margin: 0 auto;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
    }
    .move img{
       margin: 0 auto;
@@ -189,6 +192,29 @@ background-color: bisque;
       margin: 0 auto;
       widows: 50%;
    }
+   footer{
+      width: 100%;
+   }
+   .container-post
+{
+   margin: 5px;
+   width: 80%;
+   background-color: bisque;
+   display: flex;
+   flex-direction: row;
+   flex-shrink: 3;
+
+}
+.container-post h1{
+   color: black;
+   font-size: 24px;
+}
+.container-post h3{
+   font-size: 23px;
+}
+.container-post p{
+   font-size: 20px;
+}
 }
    
 
@@ -233,6 +259,23 @@ footer
 }
 .offer{
    color: black;
+}
+.container-post
+{
+   margin: 0 auto;
+   width: 100%;
+   background-color: bisque;
+
+}
+.container-post h1{
+   color: black;
+   font-size: 24px;
+}
+.container-post h3{
+   font-size: 23px;
+}
+.container-post p{
+   font-size: 20px;
 }
 .form-section {
    margin-top: 150px;
