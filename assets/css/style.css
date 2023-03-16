@@ -9,13 +9,30 @@ body{
    background-color: rgb(111, 52, 38);
 
 }
+.nav-container
+{
+   margin: 0 auto;
 
+}
 .move{
+ display: flex;
+ flex-direction: column;
+}
+.move img{
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
 
 }
 
 #logo{
-   float: left;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+
+
    font-size: 280%;
    margin-left: 20px;
 }
@@ -30,6 +47,9 @@ a h1
    list-style-type: none;
    letter-spacing: 4px;
    color: #fff;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
    
    
 }
@@ -39,7 +59,6 @@ a h1
 }
 
 #menu li{
-   float: right;
    margin-right: 30px;
 }
 
@@ -82,7 +101,7 @@ a h1
 
 header
 {
-   height: 80px;
+
 }
 
 .container
@@ -146,13 +165,29 @@ background-color: bisque;
       width: 100%;
    }
    .container{
-      margin: 40px 65px 20px 25px;
+      margin: 0 auto;
+      width: 80%;
    }
    .offer{
       margin: 0 auto;
       padding: 10px;
-      width: 90%;
+      width: 80%%;
       background-color: bisque;
+   }
+    #menu{
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+   }
+   .move img{
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      flex-shrink: 2;
+   }
+   .nav-container{
+      margin: 0 auto;
+      widows: 50%;
    }
 }
    
