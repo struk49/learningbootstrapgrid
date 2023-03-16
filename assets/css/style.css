@@ -160,7 +160,7 @@ background-color: bisque;
       margin: 20px;
    }
    .about{
-      width: 100%;
+      width: 80%;
       margin: 0 auto;
    
    }
@@ -169,7 +169,7 @@ background-color: bisque;
    }
    .container{
       margin: 0 auto;
-      width: 100%;
+      width: 90%;
    }
    .offer{
       margin: 0 auto;
@@ -190,7 +190,7 @@ background-color: bisque;
    }
    .nav-container{
       margin: 0 auto;
-      widows: 50%;
+      widows: 30%;
    }
    footer{
       width: 100%;
@@ -198,7 +198,7 @@ background-color: bisque;
    .container-post
 {
    margin: 5px;
-   width: 80%;
+   width: 90%;
    background-color: bisque;
    display: flex;
    flex-direction: row;
