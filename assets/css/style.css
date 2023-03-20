@@ -113,6 +113,10 @@ header
    
 }
 
+.about{
+   max-width: 800px;
+}
+
 .flex-parent-element
 {
 
@@ -152,6 +156,7 @@ background-color: bisque;
    margin: 0 auto;
    background-color: bisque;
    width: 100%;
+   max-width: 900px;
 }
 .container-post h1{
    margin: 10px;
