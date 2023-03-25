@@ -54,7 +54,7 @@ a h1
    
 }
 
-#logo, #menu{
+ #menu{
    line-height: 75px;
 }
 
@@ -67,7 +67,21 @@ a h1
    color: #fff;
    
 }
-#hero-image
+
+.form-image
+{
+   margin: 0 auto;
+}
+
+.sign-container img
+{
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+#hero-image img
 {
     height:600px;
     width: 100%;
@@ -134,7 +148,7 @@ header
 
 .about{
     margin: o auto;
-    width: 100;
+    width: 100%;
     font-size: 21px;
 }
 
@@ -194,17 +208,32 @@ background-color: bisque;
     #menu{
       margin: 0 auto;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
+      align-items: center;
    }
    .move img{
       margin: 0 auto;
       display: flex;
-      flex-direction: row;
-      flex-shrink: 2;
+      
    }
    .nav-container{
       margin: 0 auto;
-      widows: 30%;
+      width: 100%;
+      
+   }
+   .navi-items
+   {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+   }
+
+   .form-image
+   {
+      margin: 0 auto;
+      display: flex;
    }
    footer{
       width: 100%;
@@ -212,7 +241,7 @@ background-color: bisque;
    .container-post
 {
    margin: 5px;
-   width: 100;
+   width: 100%;
    display: flex;
    flex-direction: row;
    flex-shrink: 3;
@@ -300,11 +329,11 @@ footer
    margin-top: 150px;
    margin-left: 0 auto;
    padding: 70px;
-   background-image: url(/images/No\ more\ bad\ dog\ breath.png);
+   background-image: url(https://images.unsplash.com/photo-1529472119196-cb724127a98e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=372&q=80);
    background-size: cover;
    background-position: center;
    height: 600px;
-   width: 60%;
+   width: 100%;
 }
 .signup-form
 {
@@ -359,7 +388,7 @@ footer
       }
       };
       .signup-form{
-         width: 50%;
+         width: 100%;
       }
       footer{
          width: 100%;
