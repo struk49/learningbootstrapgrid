@@ -23,3 +23,8 @@ NEST HUB
 NEST HUB MAX
 
 One day i would like to have a large website with lots of posts which can be access on the home page. 
+
+This website is a landing page with information about a product, which helps dogs bad breath, from the inside out. These dog chews have 5 natural ingredients, with various health benefits. The user can sign up to get the special offer. I would then collect the details the user typed in the form and start a sales funnel, sending emails about various products at different times. Then i would be able to build a email list. I would have to learn how to collect the data and store it, then use the data to email customers on email list. 
+
+The site is easy to navigate using the menu, there is a home page, post page and sign up page. I tried to keep the color scheme the same on every page and added logo image. The logo image can be seen on every page and is also a link to the home page. 
+
